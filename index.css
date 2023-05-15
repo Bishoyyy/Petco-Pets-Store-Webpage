@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto Slab', serif;
+}
+.First-Section {
+    background-color: #1f2937;
+}
+.Navbar-Left {
+    font-size: 24px;
+    color: #f9faf8;
+}
+.Navbar-Right {
+    font-size: 18px;
+    color: #e5e7eb;
+    gap: 20px;
+}
+.Navbar {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+.Navbar-Left,.Navbar-Right {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.Welcome {
+    font-size: 42px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+.Info {
+    font-size: 26px;
+    text-align: center;
+}
+.Content {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    color: #e5e7eb;
+}
+.PetsStoreImage {
+    width: 700px;
+    height: 500px;
+    margin: 50px
+}
+.Content-Left,.Content-Right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.GalleryParagraph {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+.PetsImages {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 100px;
+}
+.MI {
+    width: 214px;
+    height: 236px;
+}
+.MP {
+    font-weight: bold;
+}
+.Third-Section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    font-size: 22px;
+    text-align: center;
+    color: #1f2937;
+    font-weight: lighter;
+    padding: 50px;
+}
+.Fourth-Section {
+    background-color: #3882F6;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #e5e7eb;
+    font-size: 22px;
+    padding: 22px;
+    line-height: 1.5;
+}
+.SUB {
+    padding: 10px;
+    border-radius: 30%;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#Footer {
+    padding: 10px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 14px;
+    text-align: center;
+}
